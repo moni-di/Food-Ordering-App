@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Item Edit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="signup">
+        <img class="top-img" src="top-image.png">
+        <a href="/owner"><img class="down-arrow" src="down-arrow(5).png"></a>
+        <p class="heading">Item Edit</p>
+        <form action="/itemedit" method="POST">
+            <div class="container">
+                <input type="text" placeholder="Item Id" name="itemid" required>
+                <input type="text" placeholder="item name" name="name">
+                <input type="text" placeholder="give ingredient tag1" name="ingred1">
+                <input type="text" placeholder="give ingredient tag2" name="ingred2">
+                <input type="text" placeholder="profileURL" name="profileURL">
+                <input type="text" placeholder="price" name="price" required>
+                <select name="type" id="" required>
+                    <option value="veg">veg</option>
+                    <option value="non-veg">non-veg</option>
+                </select><br><br>
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn">update</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

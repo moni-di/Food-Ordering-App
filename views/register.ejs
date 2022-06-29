@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="signup">
+        <img class="top-img" src="top-image.png">
+        <a href="/"><img class="down-arrow" src="down-arrow(5).png"></a>
+        <p class="heading">Sign Up</p>
+        <form action="/register" method="POST">
+            <div class="container">
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="email" placeholder="Email-id" name="email" required>
+                <input type="text" placeholder="Mobile Number" name="phone" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn">Continue</button>
+                </div>
+            </div>
+        </form>
+        <div class="line"></div>
+        <span>Or connect with</span>
+        <img class="bottom-img" src="bottom-image.png">
+        <a href="/auth/google"><img class="google-img" src="google(1).png"></a>
+        <img class="fb-img" src="facebook(3).png">
+    </div>
+</body>
+</html>
